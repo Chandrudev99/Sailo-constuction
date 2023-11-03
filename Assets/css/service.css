@@ -1,0 +1,165 @@
+.hero-section{
+    background: url(../images/planning.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 13rem 0rem;
+}
+
+.hero-section1{
+    background: url(../images/ind_process.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 13rem 0rem;
+}
+
+.hero-section2{
+    background: url(../images/Cost-project-management-min-scaled-1.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 13rem 0rem;
+}
+
+
+/* .service_card{
+    border: 1px solid brown;
+    border-radius: 15px;
+    position: absolute;
+    top: 350px;
+    background-color: blue;
+    color: white;
+    box-shadow: 5px 10px #888888;
+} */
+
+.OuR-service-bg-thirdsection{
+    background-color: #5C5B5C;
+    color: bisque;
+    border-radius: 15px;
+
+}
+.our-serive-text{
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.service-image{
+    border-radius: 15px;
+}
+.footer-section-bg{
+    background: #333333;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 10rem orem;
+  }
+  
+  .footer-icon{
+    font-size: 30px;
+    
+  }
+
+  .Hero_contact_button{
+    border-radius: 15px;
+    background: green;
+    width: fit-content;
+    color: white;
+    padding: 7px 5px;
+  }
+
+@media (min-width:0px) and (max-width:320px){
+    .service_card{
+        border: 1px solid brown; 
+         border-radius: 15px; 
+        background-color: blue;
+        color: white;
+        width: 100% !important;
+    }
+}
+
+@media (min-width:321px) and (max-width:375px){
+    .service_card{
+        border: 1px solid brown; 
+         border-radius: 15px; 
+        background-color: blue;
+        color: white;
+        width: 100% !important;
+    }
+}
+
+
+@media (min-width:375px) and (max-width:425px){
+    .service_card{
+        border: 1px solid brown; 
+         border-radius: 15px; 
+        background-color: blue;
+        color: white;
+        width: 100% !important;
+    }
+}
+
+
+/* tap screen start here */
+
+
+@media (min-width:426px) and (max-width:768px){
+    .service_card{
+        border: 1px solid brown; 
+         border-radius: 15px; 
+        background-color: blue;
+        color: white;
+        top: 250px;
+        position: absolute;
+        width: 50% !important;
+    }
+
+}
+
+
+
+/* laptop screen  */
+@media (min-width:769px) and (max-width:1024px){
+    .service_card{
+        border: 1px solid brown; 
+         border-radius: 15px; 
+        background-color: blue;
+        color: white;
+        width: 100%;
+        position: absolute;
+        top: 275px;
+        width: 25% !important;
+        
+    }
+
+}
+
+
+/* large screen */
+@media (min-width:1024px) and (max-width:1440px){
+    .service_card{
+        border: 1px solid brown; 
+         border-radius: 15px; 
+        background-color: blue;
+        color: white;
+        position: absolute;
+        top: 250px;
+        width: 25% !important;
+        
+    }
+
+}
+
+@media (min-width:1441px){
+    .service_card{
+        border: 1px solid brown; 
+         border-radius: 15px; 
+        background-color: blue;
+        color: white;
+        position: absolute;
+        top: 250px;
+        width: 25% !important;
+        
+    }
+}
+

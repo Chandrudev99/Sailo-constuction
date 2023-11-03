@@ -1,0 +1,1254 @@
+*{ 
+  padding: 0%;
+  margin: 0%;
+  box-sizing: border-box;
+  font-family: "Times New Roman", Times, serif;
+  overflow-x: hidden;
+  
+}
+
+*::-webkit-scrollbar {
+  display: none;
+}
+
+.Hero_contact_button{
+  border-radius: 15px;
+  background: green;
+  width: fit-content;
+  color: white;
+  padding: 7px 5px;
+}
+
+.logo{
+  background-color: transparent;
+}
+
+.alias {cursor: alias;}
+.animate-charcter{
+display: none;
+}
+.stage {
+  height: 300px;
+  width: 1000px;
+  margin: auto;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  perspective: 9999px;
+  transform-style: preserve-3d;
+}
+
+.layer {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  transform-style: preserve-3d;
+  animation: ಠ_ಠ 5s infinite alternate ease-in-out -7.5s;
+  animation-fill-mode: forwards;
+  transform: rotateY(40deg) rotateX(33deg) translateZ(0);
+}
+
+.layer:after {
+  font: 150px/0.65 "Pacifico", "Kaushan Script", Futura, "Roboto", "Trebuchet MS", Helvetica, sans-serif;
+  content: "Bulid Your\a    Own House!";
+  white-space: pre;
+  text-align: center;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 0px;
+  color: whitesmoke;
+  letter-spacing: -2px;
+  text-shadow: 4px 0 10px rgba(0, 0, 0, 0.13);
+}
+
+.layer:nth-child(1):after {
+  transform: translateZ(0px);
+}
+
+.layer:nth-child(2):after {
+  transform: translateZ(-1.5px);
+}
+
+.layer:nth-child(3):after {
+  transform: translateZ(-3px);
+}
+
+.layer:nth-child(4):after {
+  transform: translateZ(-4.5px);
+}
+
+.layer:nth-child(5):after {
+  transform: translateZ(-6px);
+}
+
+.layer:nth-child(6):after {
+  transform: translateZ(-7.5px);
+}
+
+.layer:nth-child(7):after {
+  transform: translateZ(-9px);
+}
+
+.layer:nth-child(8):after {
+  transform: translateZ(-10.5px);
+}
+
+.layer:nth-child(9):after {
+  transform: translateZ(-12px);
+}
+
+.layer:nth-child(10):after {
+  transform: translateZ(-13.5px);
+}
+
+.layer:nth-child(11):after {
+  transform: translateZ(-15px);
+}
+
+.layer:nth-child(12):after {
+  transform: translateZ(-16.5px);
+}
+
+.layer:nth-child(13):after {
+  transform: translateZ(-18px);
+}
+
+.layer:nth-child(14):after {
+  transform: translateZ(-19.5px);
+}
+
+.layer:nth-child(15):after {
+  transform: translateZ(-21px);
+}
+
+.layer:nth-child(16):after {
+  transform: translateZ(-22.5px);
+}
+
+.layer:nth-child(17):after {
+  transform: translateZ(-24px);
+}
+
+.layer:nth-child(18):after {
+  transform: translateZ(-25.5px);
+}
+
+.layer:nth-child(19):after {
+  transform: translateZ(-27px);
+}
+
+.layer:nth-child(20):after {
+  transform: translateZ(-28.5px);
+}
+
+.layer:nth-child(n+10):after {
+  -webkit-text-stroke: 3px rgba(0, 0, 0, 0.25);
+}
+
+.layer:nth-child(n+11):after {
+  -webkit-text-stroke: 15px dodgerblue;
+  text-shadow: 6px 0 6px #00366b, 5px 5px 5px #002951, 0 6px 6px #00366b;
+}
+
+.layer:nth-child(n+12):after {
+  -webkit-text-stroke: 15px #0077ea;
+}
+
+.layer:last-child:after {
+  -webkit-text-stroke: 17px rgba(0, 0, 0, 0.1);
+}
+
+.layer:first-child:after {
+  color: #fff;
+  text-shadow: none;
+}
+
+@keyframes ಠ_ಠ {
+  100% {
+    transform: rotateY(-40deg) rotateX(-43deg);
+  }
+}
+
+.section_1_heading {
+  font-weight: 900;
+}
+
+
+
+@keyframes textclip {
+  to {
+    background-position: 200% center;
+  }
+}
+
+
+.Carosel_card {
+  border-radius: 15px;
+  background: rgba(73, 45, 45, 0.25);
+  backdrop-filter: blur(6px);
+  -webkit-backdrop-filter: blur(6px);
+  width: fit-content;
+
+}
+
+.card_carousel_text {
+  font-weight: 900;
+}
+
+.card-carousel-radius {
+  border-radius: 50%;
+  border: 1px solid;
+  margin: auto;
+}
+
+.card-carousel-radius:hover {
+
+  background-color: #0077ea;
+}
+
+
+
+/* .card-.hero {
+  border-radius: 15px;
+  box-shadow: 2px black;
+  background: rgba(255, 255, 255, 0.25);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(6px);
+  -webkit-backdrop-filter: blur(6px);
+  width: fit-content;
+
+} */
+
+.phone {
+  color: blue !important;
+  animation: ring 4s .2s ease-in-out infinite;
+  transform-origin: 50% 7px;
+}
+
+@keyframes ring {
+  0% {
+    transform: rotate(0);
+  }
+
+  5% {
+    transform: rotate(30deg);
+  }
+
+  10% {
+    transform: rotate(-28deg);
+  }
+
+  15% {
+    transform: rotate(34deg);
+  }
+
+  20% {
+    transform: rotate(-32deg);
+  }
+
+  25% {
+    transform: rotate(30deg);
+  }
+
+  30% {
+    transform: rotate(-28deg);
+  }
+
+  35% {
+    transform: rotate(26deg);
+  }
+
+  40% {
+    transform: rotate(-24deg);
+  }
+
+  45% {
+    transform: rotate(22deg);
+  }
+
+  50% {
+    transform: rotate(-20deg);
+  }
+
+  55% {
+    transform: rotate(18deg);
+  }
+
+  60% {
+    transform: rotate(-16deg);
+  }
+
+  65% {
+    transform: rotate(14deg);
+  }
+
+  70% {
+    transform: rotate(-12deg);
+  }
+
+  75% {
+    transform: rotate(10deg);
+  }
+
+  80% {
+    transform: rotate(-8deg);
+  }
+
+  85% {
+    transform: rotate(6deg);
+  }
+
+  90% {
+    transform: rotate(-4deg);
+  }
+
+  95% {
+    transform: rotate(2deg);
+  }
+
+  100% {
+    transform: rotate(-1deg);
+  }
+}
+
+/* .service_card {
+  border: 1px solid black;
+  border-radius: 15px;
+  background-color: aliceblue;
+}
+
+.service_relative {
+  position: relative;
+}
+
+.service_row {
+  position: absolute;
+  top: -70px;
+} */
+
+/* .Hero_contact_button {
+  width: fit-content;
+  border-radius: 15px;
+  padding: 7px 7px;
+  background-color: green;
+  color: aliceblue;
+}
+
+
+.counter-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 30px 50px;
+  text-align: center;
+  border-radius: 25px;
+  background-color: aliceblue;
+} */
+
+/* .counter {
+  font-size: 60px;
+  margin-top: 10px;
+} */
+
+
+
+/* our service section start here */
+
+
+.Five-section-bg{
+  background: url("../images/backgroundbg.jpg");
+}
+.Our-service{
+  border-left: 2px solid blue;
+}
+
+.our-service_topic{
+  font-size:25px;
+  font-weight: 500;
+}
+
+
+.Our-service-card{
+  border: none;
+}
+
+.Our-service-card:hover{
+  /* border: 1px solid black; */
+  border-radius: 15px;
+  background-color: antiquewhite;
+  
+}
+
+/* third section start here */
+.Third_section{
+  /* background: #002951; */
+    background: url("../images/Thirdsectionbg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 18rem 0rem;
+    object-fit: contain;
+}
+.third-section_title{
+  font-weight: 700;
+  font-size: 25px;
+}
+
+.third_button{
+  background-color: #0077ea;
+  border-radius: 15px;
+}
+
+/* four project section */
+
+
+.counter-container{
+    /* border: 2px solid #fff; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 30px 50px;
+    text-align: center;
+}
+
+.counter{
+    font-size: 60px;
+    margin-top: 10px;
+}
+
+.counter-container i{
+    font-size: 40px;
+}
+
+@media screen and (max-width:735px) {
+    .container{
+        flex-direction: column;
+    }
+}
+
+.Four-section_bg{
+  background-color: #3b3d42;
+}
+
+.six_people_aboutbg{
+  background: url(../images/peopleaboutus.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 5rem 0rem;
+}
+
+.six_header{
+  display: flex;
+  justify-content: center;
+}
+.six_para_text{
+  /* width: 50%; */
+  text-align: center;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  color: red;
+}
+
+.six_col_d_none{
+  display: none;
+}
+
+.Six-Section_img{
+border-radius: 60%;
+}
+
+.footer-section-bg{
+  background: #333333;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  padding: 10rem orem;
+}
+
+.footer-icon{
+  font-size: 30px;
+  
+}
+
+.future-card{
+  border: 1px solid black ;
+  border-radius: 15px;
+ 
+}
+
+.future-card:hover {
+  transform: scale(1.5);}
+
+
+
+
+
+  /* ////////////////////////////////////////  MEDIA QUERIES START HERE    ////////////////////////////////////////////////////////////// */
+
+/* verysmall screen */
+
+@media(min-width:0px)and (max-width:320px) {
+
+
+
+  .stage{
+    display: none;
+  }
+  .animate-charcter {
+    display: block;
+    text-transform: uppercase;
+    background-image: linear-gradient(-225deg,
+        black 0%,
+        #44107a 29%,
+        #ff1361 67%,
+        white 100%);
+    background-size: auto auto;
+    background-clip: border-box;
+    background-size: 200% auto;
+    color: #fff;
+    background-clip: text;
+    text-fill-color: transparent;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: textclip 2s linear infinite;
+    display: inline-block;
+    font-size: 75px;
+  }
+
+  @keyframes textclip {
+    to {
+      background-position: 200% center;
+    }
+  }
+  #spin {
+    color:red;
+  }
+  #spin:after {
+    content:"";
+    animation: spin 2s linear infinite;
+  }
+  @keyframes spin {
+    0% { content:"House";}
+    80% { content: "Dream"; }
+    90% { content: ""; }
+  }
+
+  /* second section start here */
+  .section_1_heading{
+    font-size: 15px;
+  }
+
+
+  /* ourservice */
+  .Our-service-card{
+    border: 1px solid green;
+    border-radius: 15px;
+    margin-bottom: 8px;
+  }
+
+  /* third section */
+  .Third_button_align{
+    display: flex;
+    justify-content:center ;
+  }
+
+  .count {
+    display: block;
+    font-size: 24px;
+    color: #f2f2f2;
+    padding: 60px;
+    font-weight: 600;
+    width: 120px;
+  }
+
+  /* four section  */
+  .Four-section_bg{
+    background-color: ;
+  }
+}
+
+
+/* small screen */
+@media(min-width:320px)and (max-width:375px){
+
+  .stage{
+    display: none;
+  }
+  .animate-charcter {
+    display: block;
+    text-transform: uppercase;
+    background-image: linear-gradient(-225deg,
+        black 0%,
+        #44107a 29%,
+        #ff1361 67%,
+        white 100%);
+    background-size: auto auto;
+    background-clip: border-box;
+    background-size: 200% auto;
+    color: #fff;
+    background-clip: text;
+    text-fill-color: transparent;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: textclip 2s linear infinite;
+    display: inline-block;
+    font-size: 80px;
+  }
+
+  @keyframes textclip {
+    to {
+      background-position: 200% center;
+    }
+  }
+
+  #spin {
+    color:red;
+  }
+  #spin:after {
+    content:"";
+    animation: spin 2s linear infinite;
+  }
+  @keyframes spin {
+    0% { content:"House";}
+    80% { content: "Dream"; }
+    90% { content: ""; }
+  }
+
+    /* second section start here */
+    .section_1_heading{
+      font-size: 22px;
+    }
+
+     /* ourservice */
+  .Our-service-card{
+    border: 1px solid green;
+    border-radius: 15px;
+    margin-bottom: 8px;
+  }
+  /* third section */
+  .Third_button_align{
+    display: flex;
+    justify-content:center ;
+  }
+
+
+
+  .six_people_aboutbg{
+    background: url(../images/peopleaboutus.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 4rem 0rem;
+  }
+
+}
+
+@media(min-width:375px)and (max-width:425px){
+  .stage{
+    display: none;
+  }
+
+  .animate-charcter {
+    display: block;
+    text-transform: uppercase;
+    background-image: linear-gradient(-225deg,
+        black 0%,
+        #44107a 29%,
+        #ff1361 67%,
+        white 100%);
+    background-size: auto auto;
+    background-clip: border-box;
+    background-size: 200% auto;
+    color: #fff;
+    background-clip: text;
+    text-fill-color: transparent;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: textclip 2s linear infinite;
+    display: inline-block;
+    font-size: 90px;
+  }
+
+  @keyframes textclip {
+    to {
+      background-position: 200% center;
+    }
+  }
+
+  #spin {
+    color:red;
+  }
+  #spin:after {
+    content:"";
+    animation: spin 2s linear infinite;
+  }
+  @keyframes spin {
+    0% { content:"House";}
+    80% { content: "Dream"; }
+    90% { content: ""; }
+  }
+
+     /* second section start here */
+     .section_1_heading{
+      font-size: 25px;
+    }
+     /* ourservice */
+  .Our-service-card{
+    border: 1px solid green;
+    border-radius: 15px;
+    margin-bottom: 8px;
+  }
+    /* third section */
+    .Third_button_align{
+      display: flex;
+      justify-content:center ;
+    }
+  
+}
+
+@media(min-width:426px)and (max-width:768px){
+  .stage{
+    display: none;
+  }
+
+  .animate-charcter {
+    text-transform: uppercase;
+    background-image: linear-gradient(-225deg,
+        black 0%,
+        #44107a 29%,
+        #ff1361 67%,
+        white 100%);
+    background-size: auto auto;
+    background-clip: border-box;
+    background-size: 200% auto;
+    color: #fff;
+    background-clip: text;
+    text-fill-color: transparent;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: textclip 2s linear infinite;
+    display: inline-block;
+    font-size: 90px;
+  }
+
+  @keyframes textclip {
+    to {
+      background-position: 200% center;
+    }
+  }
+
+  #spin {
+    color:red;
+  }
+  #spin:after {
+    content:"";
+    animation: spin 2s linear infinite;
+  }
+  @keyframes spin {
+    0% { content:"House";}
+    80% { content: "Dream"; }
+    90% { content: ""; }
+  }
+
+  .Hero-section-BG {
+    /* background: linear-gradient(45deg,
+        rgba(60, 61, 50, 0.021),
+        rgba(20, 1, 1, 0)), url("../images/herobg.png"); */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 18rem 0rem;
+    background-image: url("../images/herobg.png");
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+  
+  
+    -webkit-animation: back 10s infinite;
+    /* Safari 4+ */
+    -moz-animation: back 10s infinite;
+    /* Fx 5+ */
+    -o-animation: back 10s infinite;
+    /* Opera 12+ */
+    animation: back 10s infinite;
+    /* IE 10+, Fx 29+ */
+  
+  
+  }
+  
+  /* The Keyframes*/
+  @keyframes back {
+  
+    /* 25% {
+      background-image: url("");
+    } */
+    50% {
+      background-image: linear-gradient(45deg,
+          rgba(60, 61, 50, 0.021),
+          rgba(20, 1, 1, 0)), url("../images/interior.png");
+    }
+  
+    75% {
+      background-image: linear-gradient(45deg,
+          rgba(60, 61, 50, 0.021),
+          rgba(20, 1, 1, 0)), url("../images/luxuryhouse.png");
+    }
+  
+    /* Animation Does Not End At 100% Because It Makes The Images Transition In/Out Better For Some Reason*/
+  }
+}
+
+
+/* lapton screen */
+
+@media(min-width:769px)and (max-width:1024px){
+
+  .stage {
+    height: 300px;
+    width: 1000px;
+    margin: auto;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    perspective: 9999px;
+    transform-style: preserve-3d;
+  }
+  
+  .layer {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    transform-style: preserve-3d;
+    animation: ಠ_ಠ 5s infinite alternate ease-in-out -7.5s;
+    animation-fill-mode: forwards;
+    transform: rotateY(40deg) rotateX(33deg) translateZ(0);
+  }
+  
+  .layer:after {
+    font: 150px/0.65 "Pacifico", "Kaushan Script", Futura, "Roboto", "Trebuchet MS", Helvetica, sans-serif;
+    content: "Bulid Your\a    Own House!";
+    white-space: pre;
+    text-align: center;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0px;
+    color: whitesmoke;
+    letter-spacing: -2px;
+    text-shadow: 4px 0 10px rgba(0, 0, 0, 0.13);
+  }
+  
+  .layer:nth-child(1):after {
+    transform: translateZ(0px);
+  }
+  
+  .layer:nth-child(2):after {
+    transform: translateZ(-1.5px);
+  }
+  
+  .layer:nth-child(3):after {
+    transform: translateZ(-3px);
+  }
+  
+  .layer:nth-child(4):after {
+    transform: translateZ(-4.5px);
+  }
+  
+  .layer:nth-child(5):after {
+    transform: translateZ(-6px);
+  }
+  
+  .layer:nth-child(6):after {
+    transform: translateZ(-7.5px);
+  }
+  
+  .layer:nth-child(7):after {
+    transform: translateZ(-9px);
+  }
+  
+  .layer:nth-child(8):after {
+    transform: translateZ(-10.5px);
+  }
+  
+  .layer:nth-child(9):after {
+    transform: translateZ(-12px);
+  }
+  
+  .layer:nth-child(10):after {
+    transform: translateZ(-13.5px);
+  }
+  
+  .layer:nth-child(11):after {
+    transform: translateZ(-15px);
+  }
+  
+  .layer:nth-child(12):after {
+    transform: translateZ(-16.5px);
+  }
+  
+  .layer:nth-child(13):after {
+    transform: translateZ(-18px);
+  }
+  
+  .layer:nth-child(14):after {
+    transform: translateZ(-19.5px);
+  }
+  
+  .layer:nth-child(15):after {
+    transform: translateZ(-21px);
+  }
+  
+  .layer:nth-child(16):after {
+    transform: translateZ(-22.5px);
+  }
+  
+  .layer:nth-child(17):after {
+    transform: translateZ(-24px);
+  }
+  
+  .layer:nth-child(18):after {
+    transform: translateZ(-25.5px);
+  }
+  
+  .layer:nth-child(19):after {
+    transform: translateZ(-27px);
+  }
+  
+  .layer:nth-child(20):after {
+    transform: translateZ(-28.5px);
+  }
+  
+  .layer:nth-child(n+10):after {
+    -webkit-text-stroke: 3px rgba(0, 0, 0, 0.25);
+  }
+  
+  .layer:nth-child(n+11):after {
+    -webkit-text-stroke: 15px dodgerblue;
+    text-shadow: 6px 0 6px #00366b, 5px 5px 5px #002951, 0 6px 6px #00366b;
+  }
+  
+  .layer:nth-child(n+12):after {
+    -webkit-text-stroke: 15px #0077ea;
+  }
+  
+  .layer:last-child:after {
+    -webkit-text-stroke: 17px rgba(0, 0, 0, 0.1);
+  }
+  
+  .layer:first-child:after {
+    color: #fff;
+    text-shadow: none;
+  }
+  
+  @keyframes ಠ_ಠ {
+    100% {
+      transform: rotateY(-40deg) rotateX(-43deg);
+    }
+  }
+
+  .Hero-section-BG {
+    /* background: linear-gradient(45deg,
+        rgba(60, 61, 50, 0.021),
+        rgba(20, 1, 1, 0)), url("../images/herobg.png"); */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 18rem 0rem;
+    background-image: url("../images/herobg.png");
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+  
+  
+    -webkit-animation: back 10s infinite;
+    /* Safari 4+ */
+    -moz-animation: back 10s infinite;
+    /* Fx 5+ */
+    -o-animation: back 10s infinite;
+    /* Opera 12+ */
+    animation: back 10s infinite;
+    /* IE 10+, Fx 29+ */
+  
+  
+  }
+  
+  /* The Keyframes*/
+  @keyframes back {
+  
+    /* 25% {
+      background-image: url("");
+    } */
+    50% {
+      background-image: linear-gradient(45deg,
+          rgba(60, 61, 50, 0.021),
+          rgba(20, 1, 1, 0)), url("../images/interior.png");
+    }
+  
+    75% {
+      background-image: linear-gradient(45deg,
+          rgba(60, 61, 50, 0.021),
+          rgba(20, 1, 1, 0)), url("../images/luxuryhouse.png");
+    }
+  
+    /* Animation Does Not End At 100% Because It Makes The Images Transition In/Out Better For Some Reason*/
+  }
+
+
+}
+
+@media(min-width:1025px)and (max-width:1440px){
+  .stage {
+    height: 300px;
+    width: 1000px;
+    margin: auto;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    perspective: 9999px;
+    transform-style: preserve-3d;
+  }
+  
+  .layer {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    transform-style: preserve-3d;
+    animation: ಠ_ಠ 5s infinite alternate ease-in-out -7.5s;
+    animation-fill-mode: forwards;
+    transform: rotateY(40deg) rotateX(33deg) translateZ(0);
+  }
+  
+  .layer:after {
+    font: 150px/0.65 "Pacifico", "Kaushan Script", Futura, "Roboto", "Trebuchet MS", Helvetica, sans-serif;
+    content: "Bulid Your\a    Own House!";
+    white-space: pre;
+    text-align: center;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0px;
+    color: whitesmoke;
+    letter-spacing: -2px;
+    text-shadow: 4px 0 10px rgba(0, 0, 0, 0.13);
+  }
+  
+  .layer:nth-child(1):after {
+    transform: translateZ(0px);
+  }
+  
+  .layer:nth-child(2):after {
+    transform: translateZ(-1.5px);
+  }
+  
+  .layer:nth-child(3):after {
+    transform: translateZ(-3px);
+  }
+  
+  .layer:nth-child(4):after {
+    transform: translateZ(-4.5px);
+  }
+  
+  .layer:nth-child(5):after {
+    transform: translateZ(-6px);
+  }
+  
+  .layer:nth-child(6):after {
+    transform: translateZ(-7.5px);
+  }
+  
+  .layer:nth-child(7):after {
+    transform: translateZ(-9px);
+  }
+  
+  .layer:nth-child(8):after {
+    transform: translateZ(-10.5px);
+  }
+  
+  .layer:nth-child(9):after {
+    transform: translateZ(-12px);
+  }
+  
+  .layer:nth-child(10):after {
+    transform: translateZ(-13.5px);
+  }
+  
+  .layer:nth-child(11):after {
+    transform: translateZ(-15px);
+  }
+  
+  .layer:nth-child(12):after {
+    transform: translateZ(-16.5px);
+  }
+  
+  .layer:nth-child(13):after {
+    transform: translateZ(-18px);
+  }
+  
+  .layer:nth-child(14):after {
+    transform: translateZ(-19.5px);
+  }
+  
+  .layer:nth-child(15):after {
+    transform: translateZ(-21px);
+  }
+  
+  .layer:nth-child(16):after {
+    transform: translateZ(-22.5px);
+  }
+  
+  .layer:nth-child(17):after {
+    transform: translateZ(-24px);
+  }
+  
+  .layer:nth-child(18):after {
+    transform: translateZ(-25.5px);
+  }
+  
+  .layer:nth-child(19):after {
+    transform: translateZ(-27px);
+  }
+  
+  .layer:nth-child(20):after {
+    transform: translateZ(-28.5px);
+  }
+  
+  .layer:nth-child(n+10):after {
+    -webkit-text-stroke: 3px rgba(0, 0, 0, 0.25);
+  }
+  
+  .layer:nth-child(n+11):after {
+    -webkit-text-stroke: 15px dodgerblue;
+    text-shadow: 6px 0 6px #00366b, 5px 5px 5px #002951, 0 6px 6px #00366b;
+  }
+  
+  .layer:nth-child(n+12):after {
+    -webkit-text-stroke: 15px #0077ea;
+  }
+  
+  .layer:last-child:after {
+    -webkit-text-stroke: 17px rgba(0, 0, 0, 0.1);
+  }
+  
+  .layer:first-child:after {
+    color: #fff;
+    text-shadow: none;
+  }
+  
+  @keyframes ಠ_ಠ {
+    100% {
+      transform: rotateY(-40deg) rotateX(-43deg);
+    }
+  }
+
+
+  .Hero-section-BG {
+    /* background: linear-gradient(45deg,
+        rgba(60, 61, 50, 0.021),
+        rgba(20, 1, 1, 0)), url("../images/herobg.png"); */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 18rem 0rem;
+    background-image: url("../images/herobg.png");
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+  
+  
+    -webkit-animation: back 10s infinite;
+    /* Safari 4+ */
+    -moz-animation: back 10s infinite;
+    /* Fx 5+ */
+    -o-animation: back 10s infinite;
+    /* Opera 12+ */
+    animation: back 10s infinite;
+    /* IE 10+, Fx 29+ */
+  
+  
+  }
+  
+  /* The Keyframes*/
+  @keyframes back {
+  
+    /* 25% {
+      background-image: url("");
+    } */
+    50% {
+      background-image: linear-gradient(45deg,
+          rgba(60, 61, 50, 0.021),
+          rgba(20, 1, 1, 0)), url("../images/interior.png");
+    }
+  
+    75% {
+      background-image: linear-gradient(45deg,
+          rgba(60, 61, 50, 0.021),
+          rgba(20, 1, 1, 0)), url("../images/luxuryhouse.png");
+    }
+  
+    /* Animation Does Not End At 100% Because It Makes The Images Transition In/Out Better For Some Reason*/
+  }
+  
+}
+
+
+@media(min-width:1440px){
+  .Hero-section-BG {
+    /* background: linear-gradient(45deg,
+        rgba(60, 61, 50, 0.021),
+        rgba(20, 1, 1, 0)), url("../images/herobg.png"); */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 18rem 0rem;
+    background-image: url("../images/herobg.png");
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+  
+  
+    -webkit-animation: back 10s infinite;
+    /* Safari 4+ */
+    -moz-animation: back 10s infinite;
+    /* Fx 5+ */
+    -o-animation: back 10s infinite;
+    /* Opera 12+ */
+    animation: back 10s infinite;
+    /* IE 10+, Fx 29+ */
+  
+  
+  }
+  
+  /* The Keyframes*/
+  @keyframes back {
+  
+    /* 25% {
+      background-image: url("");
+    } */
+    50% {
+      background-image: linear-gradient(45deg,
+          rgba(60, 61, 50, 0.021),
+          rgba(20, 1, 1, 0)), url("../images/interior.png");
+    }
+  
+    75% {
+      background-image: linear-gradient(45deg,
+          rgba(60, 61, 50, 0.021),
+          rgba(20, 1, 1, 0)), url("../images/luxuryhouse.png");
+    }
+  
+    /* Animation Does Not End At 100% Because It Makes The Images Transition In/Out Better For Some Reason*/
+  }
+}
